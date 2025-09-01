@@ -1,0 +1,40 @@
+Microsoft Windows [Version 10.0.19045.6216]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Windows\system32>cd C:\Windows\System32
+
+C:\Windows\system32>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>cd C:\Users\Kasala SrinivasReddy
+
+C:\Users\Kasala SrinivasReddy>cd GitStuff
+
+C:\Users\Kasala SrinivasReddy\GitStuff>git push -u origin main
+Unable to negotiate with 20.207.73.82 port 22: no matching host key type found. Their offer: ssh-rsa
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\Kasala SrinivasReddy\GitStuff>git remote set-url origin https://github.com/Kasala3022/Srinivasreddyselenium3022-KSPR-.git
+
+C:\Users\Kasala SrinivasReddy\GitStuff>git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 120, done.
+Counting objects: 100% (120/120), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (120/120), done.
+Writing objects: 100% (120/120), 35.05 KiB | 1.40 MiB/s, done.
+Total 120 (delta 17), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (17/17), done.
+To https://github.com/Kasala3022/Srinivasreddyselenium3022-KSPR-.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\Kasala SrinivasReddy\GitStuff>git push -u origin main
+branch 'main' set up to track 'origin/main'.
+Everything up-to-date
+
+C:\Users\Kasala SrinivasReddy\GitStuff>
